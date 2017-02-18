@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F8A21C1E582251006E6BD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F8A21B1E582251006E6BD2 /* AppDelegate.swift */; };
+		18F8A21E1E582251006E6BD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F8A21D1E582251006E6BD2 /* ViewController.swift */; };
+		18F8A2211E582251006E6BD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F8A21F1E582251006E6BD2 /* Main.storyboard */; };
+		18F8A2231E582251006E6BD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F8A2221E582251006E6BD2 /* Assets.xcassets */; };
+		18F8A2261E582251006E6BD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F8A2241E582251006E6BD2 /* LaunchScreen.storyboard */; };
+		18F8A2311E582251006E6BD2 /* PocketManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F8A2301E582251006E6BD2 /* PocketManagerTests.swift */; };
+		18F8A23C1E582251006E6BD2 /* PocketManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F8A23B1E582251006E6BD2 /* PocketManagerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F8A22D1E582251006E6BD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F8A2101E582251006E6BD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F8A2171E582251006E6BD2;
+			remoteInfo = PocketManager;
+		};
+		18F8A2381E582251006E6BD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F8A2101E582251006E6BD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F8A2171E582251006E6BD2;
+			remoteInfo = PocketManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F8A2181E582251006E6BD2 /* PocketManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F8A21B1E582251006E6BD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18F8A21D1E582251006E6BD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18F8A2201E582251006E6BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F8A2221E582251006E6BD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F8A2251E582251006E6BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F8A2271E582251006E6BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F8A22C1E582251006E6BD2 /* PocketManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F8A2301E582251006E6BD2 /* PocketManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketManagerTests.swift; sourceTree = "<group>"; };
+		18F8A2321E582251006E6BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F8A2371E582251006E6BD2 /* PocketManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F8A23B1E582251006E6BD2 /* PocketManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketManagerUITests.swift; sourceTree = "<group>"; };
+		18F8A23D1E582251006E6BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F8A2151E582251006E6BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F8A2291E582251006E6BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F8A2341E582251006E6BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F8A20F1E582251006E6BD2 = {
+			isa = PBXGroup;
+			children = (
+				18F8A21A1E582251006E6BD2 /* PocketManager */,
+				18F8A22F1E582251006E6BD2 /* PocketManagerTests */,
+				18F8A23A1E582251006E6BD2 /* PocketManagerUITests */,
+				18F8A2191E582251006E6BD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F8A2191E582251006E6BD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F8A2181E582251006E6BD2 /* PocketManager.app */,
+				18F8A22C1E582251006E6BD2 /* PocketManagerTests.xctest */,
+				18F8A2371E582251006E6BD2 /* PocketManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F8A21A1E582251006E6BD2 /* PocketManager */ = {
+			isa = PBXGroup;
+			children = (
+				18F8A21B1E582251006E6BD2 /* AppDelegate.swift */,
+				18F8A21D1E582251006E6BD2 /* ViewController.swift */,
+				18F8A21F1E582251006E6BD2 /* Main.storyboard */,
+				18F8A2221E582251006E6BD2 /* Assets.xcassets */,
+				18F8A2241E582251006E6BD2 /* LaunchScreen.storyboard */,
+				18F8A2271E582251006E6BD2 /* Info.plist */,
+			);
+			path = PocketManager;
+			sourceTree = "<group>";
+		};
+		18F8A22F1E582251006E6BD2 /* PocketManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F8A2301E582251006E6BD2 /* PocketManagerTests.swift */,
+				18F8A2321E582251006E6BD2 /* Info.plist */,
+			);
+			path = PocketManagerTests;
+			sourceTree = "<group>";
+		};
+		18F8A23A1E582251006E6BD2 /* PocketManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F8A23B1E582251006E6BD2 /* PocketManagerUITests.swift */,
+				18F8A23D1E582251006E6BD2 /* Info.plist */,
+			);
+			path = PocketManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F8A2171E582251006E6BD2 /* PocketManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F8A2401E582251006E6BD2 /* Build configuration list for PBXNativeTarget "PocketManager" */;
+			buildPhases = (
+				18F8A2141E582251006E6BD2 /* Sources */,
+				18F8A2151E582251006E6BD2 /* Frameworks */,
+				18F8A2161E582251006E6BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketManager;
+			productName = PocketManager;
+			productReference = 18F8A2181E582251006E6BD2 /* PocketManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F8A22B1E582251006E6BD2 /* PocketManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F8A2431E582251006E6BD2 /* Build configuration list for PBXNativeTarget "PocketManagerTests" */;
+			buildPhases = (
+				18F8A2281E582251006E6BD2 /* Sources */,
+				18F8A2291E582251006E6BD2 /* Frameworks */,
+				18F8A22A1E582251006E6BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F8A22E1E582251006E6BD2 /* PBXTargetDependency */,
+			);
+			name = PocketManagerTests;
+			productName = PocketManagerTests;
+			productReference = 18F8A22C1E582251006E6BD2 /* PocketManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F8A2361E582251006E6BD2 /* PocketManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F8A2461E582251006E6BD2 /* Build configuration list for PBXNativeTarget "PocketManagerUITests" */;
+			buildPhases = (
+				18F8A2331E582251006E6BD2 /* Sources */,
+				18F8A2341E582251006E6BD2 /* Frameworks */,
+				18F8A2351E582251006E6BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F8A2391E582251006E6BD2 /* PBXTargetDependency */,
+			);
+			name = PocketManagerUITests;
+			productName = PocketManagerUITests;
+			productReference = 18F8A2371E582251006E6BD2 /* PocketManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F8A2101E582251006E6BD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Aash Bhardwaj";
+				TargetAttributes = {
+					18F8A2171E582251006E6BD2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					18F8A22B1E582251006E6BD2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18F8A2171E582251006E6BD2;
+					};
+					18F8A2361E582251006E6BD2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18F8A2171E582251006E6BD2;
+					};
+				};
+			};
+			buildConfigurationList = 18F8A2131E582251006E6BD2 /* Build configuration list for PBXProject "PocketManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F8A20F1E582251006E6BD2;
+			productRefGroup = 18F8A2191E582251006E6BD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F8A2171E582251006E6BD2 /* PocketManager */,
+				18F8A22B1E582251006E6BD2 /* PocketManagerTests */,
+				18F8A2361E582251006E6BD2 /* PocketManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F8A2161E582251006E6BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F8A2261E582251006E6BD2 /* LaunchScreen.storyboard in Resources */,
+				18F8A2231E582251006E6BD2 /* Assets.xcassets in Resources */,
+				18F8A2211E582251006E6BD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F8A22A1E582251006E6BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F8A2351E582251006E6BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F8A2141E582251006E6BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F8A21E1E582251006E6BD2 /* ViewController.swift in Sources */,
+				18F8A21C1E582251006E6BD2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F8A2281E582251006E6BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F8A2311E582251006E6BD2 /* PocketManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F8A2331E582251006E6BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F8A23C1E582251006E6BD2 /* PocketManagerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F8A22E1E582251006E6BD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F8A2171E582251006E6BD2 /* PocketManager */;
+			targetProxy = 18F8A22D1E582251006E6BD2 /* PBXContainerItemProxy */;
+		};
+		18F8A2391E582251006E6BD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F8A2171E582251006E6BD2 /* PocketManager */;
+			targetProxy = 18F8A2381E582251006E6BD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F8A21F1E582251006E6BD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F8A2201E582251006E6BD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F8A2241E582251006E6BD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F8A2251E582251006E6BD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F8A23E1E582251006E6BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F8A23F1E582251006E6BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F8A2411E582251006E6BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PocketManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spdumd.PocketManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18F8A2421E582251006E6BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PocketManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spdumd.PocketManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		18F8A2441E582251006E6BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PocketManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spdumd.PocketManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketManager.app/PocketManager";
+			};
+			name = Debug;
+		};
+		18F8A2451E582251006E6BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PocketManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spdumd.PocketManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketManager.app/PocketManager";
+			};
+			name = Release;
+		};
+		18F8A2471E582251006E6BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PocketManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spdumd.PocketManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PocketManager;
+			};
+			name = Debug;
+		};
+		18F8A2481E582251006E6BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PocketManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = spdumd.PocketManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PocketManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F8A2131E582251006E6BD2 /* Build configuration list for PBXProject "PocketManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F8A23E1E582251006E6BD2 /* Debug */,
+				18F8A23F1E582251006E6BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F8A2401E582251006E6BD2 /* Build configuration list for PBXNativeTarget "PocketManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F8A2411E582251006E6BD2 /* Debug */,
+				18F8A2421E582251006E6BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18F8A2431E582251006E6BD2 /* Build configuration list for PBXNativeTarget "PocketManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F8A2441E582251006E6BD2 /* Debug */,
+				18F8A2451E582251006E6BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18F8A2461E582251006E6BD2 /* Build configuration list for PBXNativeTarget "PocketManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F8A2471E582251006E6BD2 /* Debug */,
+				18F8A2481E582251006E6BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F8A2101E582251006E6BD2 /* Project object */;
+}
